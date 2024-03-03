@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  node:
+    image: sreekanthpv12/nodejs-app-demo:latest
+    ports:
+      - "8082:8080"
+
+
